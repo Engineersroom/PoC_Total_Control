@@ -1,0 +1,16 @@
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\bin\Debug\POC_Constrol.exe.config
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\bin\Debug\POC_Constrol.exe
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\bin\Debug\POC_Constrol.pdb
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\bin\Debug\Ivi.Visa.dll
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\bin\Debug\Keysight.Visa.dll
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\bin\Debug\Ivi.Visa.xml
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\bin\Debug\Keysight.Visa.xml
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\obj\Debug\POC_Constrol.csproj.AssemblyReference.cache
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\obj\Debug\POC_Constrol.csproj.SuggestedBindingRedirects.cache
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\obj\Debug\POC_Constrol.Total_control.resources
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\obj\Debug\POC_Constrol.Properties.Resources.resources
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\obj\Debug\POC_Constrol.csproj.GenerateResource.cache
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\obj\Debug\POC_Constrol.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\obj\Debug\POC_Constrol.csproj.CopyComplete
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\obj\Debug\POC_Constrol.exe
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\obj\Debug\POC_Constrol.pdb
