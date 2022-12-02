@@ -13,6 +13,10 @@ using Ivi.Visa;
 using Ivi.Visa.FormattedIO;
 using System.Runtime.InteropServices;
 using System.Threading;
+using AnalogDevices.Csa.Remoting.Clients;
+using System;
+using System.Diagnostics;
+using System.Threading;
 
 namespace POC_Constrol
 {
@@ -23,6 +27,13 @@ namespace POC_Constrol
 
         [DllImport("C:\\Users\\MSI\\Documents\\Eunsang\\program\\C_sharp\\POC_Constrol\\POC_Constrol\\obj\\Debug\\FMC4030-Dll", CallingConvention = CallingConvention.StdCall)]
         public static extern int FMC4030_Close_Device(int id);
+
+        static ClientManager manager = ClientManager.Create();
+        //Thread.Sleep(100);
+        static RequestClient client = manager.CreateRequestClient(2357);
+        //client.AddHardwarePlugin("AD9164-FMC-EBZ");
+        static 
+            Stopwatch stopWatch = new Stopwatch();
 
         public Total_control()
         {
@@ -36,6 +47,7 @@ namespace POC_Constrol
             txtTestID.Text = "1";
             txtTestIP.Text = "192.168.0.30";
             txtTestPort.Text = "8088";
+            client.ContextPath = @"\System\Subsystem_1\AD9164-FMC-EBZ\AD9164";
 
         }
 
@@ -73,7 +85,24 @@ namespace POC_Constrol
             returnVal = FMC4030_Close_Device(int.Parse(txtTestID.Text));
             txtTestEndConnectionState.Text = returnVal.ToString();
             Thread.Sleep(100);
+        }
 
+        private void btnTestACEConnect_Click(object sender, EventArgs e)
+        {
+       
+            //Thread.Sleep(100);
+
+            stopWatch.Start();
+            for (int i = 1; i < 361; i++)
+            {
+                client.RawWriteRegister(0x800, i);
+            }
+            stopWatch.Stop();
+            TimeSpan ts = stopWatch.Elapsed;
+
+            // Format and display the TimeSpan value. 
+            string elapsedTime = stopWatch.ElapsedMilliseconds.ToString();
+            txtDebug.Text = elapsedTime;
         }
     }
 }

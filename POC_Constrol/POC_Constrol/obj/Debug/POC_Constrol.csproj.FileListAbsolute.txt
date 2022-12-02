@@ -14,3 +14,5 @@ C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\obj\Deb
 C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\obj\Debug\POC_Constrol.csproj.CopyComplete
 C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\obj\Debug\POC_Constrol.exe
 C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\obj\Debug\POC_Constrol.pdb
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\bin\Debug\AnalogDevices.Csa.Remoting.Clients.dll
+C:\Users\MSI\Documents\Eunsang\program\C_sharp\POC_Constrol\POC_Constrol\bin\Debug\AnalogDevices.Csa.Remoting.Contracts.dll
